@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "333407764673",
+    "project_id": "quiz-app-dca03",
+    "storage_bucket": "quiz-app-dca03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333407764673:android:35bd37604ae2d07fd39440",
+        "android_client_info": {
+          "package_name": "com.sunil93021.quizapp.quiz_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVspUuH4vCzB7PfnG3b4m4QTsyeDgv91s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
