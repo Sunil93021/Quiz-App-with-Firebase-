@@ -116,3 +116,12 @@ service cloud.firestore {
 ```
 
 ---
+### Screenshots
+## Login Page / Welcome Page
+![IMG-20250718-WA0053](https://github.com/user-attachments/assets/edfbe0ef-344d-4536-a446-91bab4676eaf)
+## Home Screen
+![IMG-20250718-WA0050](https://github.com/user-attachments/assets/e1e528d6-fb50-449c-a70e-6ccfc2db6204)
+## Result Screen
+![IMG-20250718-WA0051](https://github.com/user-attachments/assets/00b1e2af-af47-4583-bd65-1589632c3000)
+## Leaderboard
+![IMG-20250718-WA0049](https://github.com/user-attachments/assets/c0d60594-87da-4216-ae38-e1c33845c26c)
