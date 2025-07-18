@@ -14,7 +14,7 @@ This is a Flutter-based Quiz App using Firebase as its backend. It supports real
 * 🏆 Separate leaderboard for each quiz topic
 * 📜 Past results history with timestamps
 * ✨ Clean UI and responsive layout
-
+* Theme based on System (light/dark)
 ---
 
 ## 📁 Project Structure
