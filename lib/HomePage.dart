@@ -15,6 +15,7 @@ class QuizTopic extends StatelessWidget {
     final ColorScheme colorScheme = Theme.of(context).colorScheme;
     return Card(
       elevation: 4,
+
       margin: EdgeInsets.all(20),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
@@ -28,8 +29,8 @@ class QuizTopic extends StatelessWidget {
           );
         },
         child: SizedBox(
-          width: 150,
-          height: 150,
+          width: 100,
+          height: 100,
           child: Center(child: Text(name)),
         ),
       ),
@@ -127,12 +128,22 @@ class QuizListView extends StatelessWidget {
 
         final docs = snapshot.data!.docs;
 
-        return ListView.builder(
-          itemCount: docs.length,
-          itemBuilder: (context, index) {
-            final quizName = docs[index].id;
-            return QuizTopic(name: quizName);
-          },
+        return Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: GridView.builder(
+            itemCount: docs.length,
+            gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+              maxCrossAxisExtent: 400,
+              mainAxisExtent: 150, // 🧠 Max width of each card
+              mainAxisSpacing: 20,
+              crossAxisSpacing: 20,
+              childAspectRatio: 1, // Adjust based on height/width of card
+            ),
+            itemBuilder: (context, index) {
+              final quizName = docs[index].id;
+              return QuizTopic(name: quizName);
+            },
+          ),
         );
       },
     );
